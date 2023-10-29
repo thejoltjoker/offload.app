@@ -37,16 +37,16 @@ sass:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
-responsive_image:
-  cache: true
-  template: _includes/responsive-image.html
-  output_path_format: assets/img/%{filename}-%{width}x%{height}.%{extension}
-  strip: false
-  save_to_source: false
-  sizes:
-    - width: 320
-    - width: 480
-    - width: 560
-    - width: 800
-    - width: 1280
-    - width: 1920
+# responsive_image:
+#   cache: true
+#   template: _includes/responsive-image.html
+#   output_path_format: assets/img/%{filename}-%{width}x%{height}.%{extension}
+#   strip: false
+#   save_to_source: false
+#   sizes:
+#     - width: 320
+#     - width: 480
+#     - width: 560
+#     - width: 800
+#     - width: 1280
+#     - width: 1920
