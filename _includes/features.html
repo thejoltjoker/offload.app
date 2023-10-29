@@ -33,7 +33,12 @@
           <div class="photo-thumbs">
             <div class="photo-thumb photo-thumb-1">
               <div class="photo-thumb-img">
-                <img src="/assets/img/skier-560x373.jpg" alt="Skier">
+                {% assign skier-img = site.url %}
+                {% if site.baseurl %}
+                {% assign skier-img = skier-img | append: site.baseurl %}
+                {% endif %}
+                {% assign skier-img = skier-img | append: "/assets/img/skier-560x373.jpg"%}
+                <img src="{{ skier-img }}" alt="Skier">
               </div>
 
               <div class="photo-thumb-meta">
@@ -46,7 +51,7 @@
 
             <div class="photo-thumb photo-thumb-2">
               <div class="photo-thumb-img">
-                <img src="/assets/img/skier-560x373.jpg" alt="Skier">
+                <img src="{{ skier-img }}" alt="Skier">
               </div>
               <div class="photo-thumb-meta">
                 <p>
