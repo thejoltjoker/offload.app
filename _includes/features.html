@@ -1,0 +1,237 @@
+<div id="features">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center"><h2>Features</h2></div>
+    </div>
+  </div>
+  <!-- <div class="container">
+      <div class="row">
+        <div class="col text-center"><h2>Features</h2></div>
+      </div>
+      
+
+      <div id="feature-verification" class="row">
+          
+          <div class="col" id="verification-illustration">
+            
+          <p>
+            <i class="checksum-symbol bi bi-file-earmark-image"></i>
+            <span class="checksum-filename">IMG_12345.DNG</span> 1132400a5bc43342
+            <br />
+            <i class="checksum-symbol bi bi-file-earmark-image"></i>
+            <span class="checksum-filename">201224_0001_IMG.DNG</span> 1132400a5bc43342
+          </p>
+          </div>
+        </div>
+  
+    </div> -->
+
+  <article id="feature-verification" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 order-2 order-md-1">
+          <div class="photo-thumbs">
+            <div class="photo-thumb photo-thumb-1">
+              <div class="photo-thumb-img">
+                {% responsive_image path: assets/img/skier.jpg alt: "Skier"%}
+              </div>
+
+              <div class="photo-thumb-meta">
+                <p>
+                  <span class="photo-thumb-title">IMG_12345.DNG</span> <br />
+                  <span class="photo-thumb-checksum">1132400a5bc43342</span>
+                </p>
+              </div>
+            </div>
+
+            <div class="photo-thumb photo-thumb-2">
+              <div class="photo-thumb-img">
+                {% responsive_image path: assets/img/skier.jpg alt: "Skier"%}
+              </div>
+              <div class="photo-thumb-meta">
+                <p>
+                  <span class="photo-thumb-title">200118_SKI_028.DNG</span>
+                  <br />
+                  <span class="photo-thumb-checksum">1132400a5bc43342</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col order-1 order-md-2 align-self-center">
+          <h3>All transfers are verified using checksum verification</h3>
+          <p>Don't worry about losing data along the way.</p>
+        </div>
+      </div>
+      <div id="checksum">
+        <div class="row text-center">
+          <div class="col">
+            <h4>What is checksum verification?</h4>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-xl-4 order-1 order-xl-1 align-self-center">
+            <!-- <i class="checksum-symbol bi bi-file-earmark-image"></i>
+          <p class="text-white">
+            <span class="checksum-filename">12345_IMG.DNG</span>
+            <span class="text-muted">=</span>
+            <span class="text-secondary">1132400a5bc43342</span>
+          </p> -->
+            <table class="table table-sm">
+              <tr>
+                <td class="checksum-filename">12345_IMG.DNG</td>
+                <td class="text-muted">=</td>
+                <td class="checksum-hash">1132400a5bc43342</td>
+              </tr>
+              <tr class="checksum-explanation">
+                <td>File</td>
+                <td></td>
+                <td>Hash</td>
+              </tr>
+            </table>
+
+            <!-- <p>
+              <span class="checksum-filename">12345_IMG.DNG</span>
+              <span class="text-muted">=</span>
+              <span class="checksum-hash">1132400a5bc43342</span>
+            </p> -->
+          </div>
+          <div class="col-12 col-xl-4 order-3 order-xl-2 align-self-center">
+            <!-- <i class="bi bi-images checksum-symbol"></i> -->
+            <table class="table table-sm">
+              <tr>
+                <td class="checksum-filename">12345_IMG.DNG</td>
+                <td class="text-muted">→</td>
+                <td class="checksum-filename">200118_SKI_028.DNG</td>
+              </tr>
+              <tr class="checksum-explanation">
+                <td>Original</td>
+                <td></td>
+                <td>Copy</td>
+              </tr>
+            </table>
+
+            <!-- <p>
+              <span class="checksum-filename">12345_IMG.DNG</span>
+              <span class="text-muted">→</span>
+              <span class="checksum-filename">200118_SKI_028.DNG</span>
+            </p> -->
+          </div>
+          <div class="col-12 col-xl-4 order-5 order-xl-3 align-self-center">
+            <table class="table table-sm">
+              <tr>
+                <td class="checksum-fail checksum-filename">12345_IMG.DNG</td>
+                <td class="text-warning">≠</tds>
+                <td class="checksum-fail checksum-filename">200118_SKI_028.DNG</td>
+              </tr>
+              <tr>
+                <td class="text-success checksum-hash">1132400a5bc43342</td>
+                <td class="text-success">=</td>
+                <td class="text-success checksum-hash">1132400a5bc43342</td>
+              </tr>
+              <tr class="checksum-explanation">
+                <td>Original</td>
+                <td></td>
+                <td>Copy</td>
+              </tr>
+            </table>
+          </div>
+        
+        
+          <div class="col-12 col-xl-4 order-2 order-xl-4">
+            <p>
+              An algorithm is used to generate a string of characters from the
+              file content.
+            </p>
+          </div>
+          <div class="col-12 col-xl-4 order-4 order-xl-5">
+            <p>The file is copied to a different location.</p>
+          </div>
+          <div class="col-12 col-xl-4 order-6 order-xl-6">
+            <p>
+              A checksum is generated for the new file. <br>
+              If the checksums match we can assume that it's the same file since the checksum is based on the file content.
+            </p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </article>
+
+  <article id="feature-gui" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center"></div>
+      </div>
+      <div class="row">
+        <div class="col align-self-center">
+          <h3>No more ugly and confusing interfaces</h3>
+          <p>Offload is carefully designed to please your creative eyes.</p>
+        </div>
+        <div class="col-md-6">
+          <div class="window-wrapper">
+            <div class="tw-wrapper">
+              <div class="term-window">
+                <p>
+                  H4XX0R 0FFL04D <br />
+                  > IMG_12345.DNG => 200118_SKI_028.DNG <br />
+                  > [XXXXXX--------------] 30% <br />
+                  > Copying... [ETA: 1337 min] <br />
+                  > <br />
+                  <br />
+                </p>
+              </div>
+            </div>
+            <div class="ow-wrapper">
+              <div class="old-window">
+                <div class="ow-titlebar">Ugly Offload</div>
+                <!-- <div class="ow-menu">File Edit</div> -->
+
+                <div class="ow-content">
+                  <p>
+                    <br />
+                    IMG_12345.DNG => 200118_SKI_028.DNG <br />
+                    Copying the file... <br />
+                    <br />
+                    From 'Source' to 'Destination'
+                    <br />
+                  </p>
+                  <div class="ow-progress">
+                    <div class="ow-progress-bar"></div>
+                  </div>
+                  <p class="ow-remaining">45 minutes remaining</p>
+                </div>
+
+                <div class="text-center">
+                  <div class="btn ow-btn">Offload</div>
+                  <div class="btn ow-btn">Cancel</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-5"></div>
+      </div>
+    </div>
+  </article>
+  <article id="feature-reports" class="container-fluid">
+    <div class="container">
+      <div class="row">
+        <div class="col text-center">
+          <h3>Easy to read transfer reports</h3>
+          <p>Offload provides transfer reports in .csv and/or .html format.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col">
+          <p class="text-muted">Example output:</p>
+          <div id="report-container">
+            <div class="table-responsive">{% include report.html %}</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>

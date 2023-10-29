@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.2",
+    "bootstrap-icons": "^1.2.2",
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  },
+  "name": "offload_website",
+  "description": "",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

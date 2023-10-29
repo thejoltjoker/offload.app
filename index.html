@@ -1,0 +1,56 @@
+---
+layout: default
+title: Offload
+---
+
+
+<div id="landing" class="container-fluid">
+  <div class="container">
+    <div class="row">
+      <div class="col text-center">
+        <h1>Offload files with ease</h1>
+      </div>
+    </div>
+    <div class="row">
+      {% include app-gui.html %}
+    </div>
+    <div class="row">
+      <div class="landing-description col text-center p-4">
+        <p>
+          Offload turns offloading photos and videos into a simple and safe process where you don't have to worry about losing any of your data. Offload gives you ease of mind, both visually and mentally.
+        </p>
+        <a class="btn btn-primary download-button" href="#download">Download for MacOS</a>
+      </div>
+      <!-- <div class="col"><h1>A simple and safe way to offload your photos and videos</h1>
+        <p>
+          Offload turns offloading photos and videos into a simple and safe process where you don't have to worry about losing any of your data.
+        </p>
+        <a class="btn btn-primary download-button" href="#download">Download for MacOS</a>
+      </div> -->
+    </div>
+  </div>
+</div>
+
+{% include features.html %}
+
+<article id="download" class="container-fluid">
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-md text-center">
+        <h2>Get started offloading</h2>
+        <p>Use Offload for free</p>
+
+        <a class="btn btn-primary download-button" href="{{ "/assets/files/Offload.zip" | relative_url }}" role="button"
+          >Download for MacOS <span style="opacity: 0.8;">*</span>
+        </a>
+        <p class="text-muted">
+          <i class="bi bi-download"></i>
+          Version 0.1.2 <span style="opacity: 0.8;">beta</span> <br>
+          * Please note that this is an early beta, use with caution!
+        </p>
+      </div>
+    </div>
+  </div>
+</article>
+{% include donate.html %}
