@@ -13,7 +13,6 @@ github_username: thejoltjoker
 plugins:
   - jekyll-feed
   - jekyll-responsive-image
-  - jekyll-autoprefixer
   - jekyll-seo-tag
   - jekyll-sitemap
 
